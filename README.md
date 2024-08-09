@@ -1,7 +1,7 @@
 
-# SSDNeRF
+# NeRF
 
-Official PyTorch implementation of the ICCV 2023 paper:
+Official PyTorch implementation of :
 
 **Single-Stage Diffusion NeRF: A Unified Approach to 3D Generation and Reconstruction**
 <br>
@@ -32,9 +32,9 @@ https://github.com/Lakonik/SSDNeRF/assets/53893837/22e7ee6c-7576-44f2-b408-41089
 The code has been tested in the environment described as follows:
 
 - Linux (tested on Ubuntu 18.04/20.04 LTS)
-- Python 3.7
+- Python 3.11.9
 - [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit-archive) 11
-- [PyTorch](https://pytorch.org/get-started/previous-versions/) 1.12.1
+- [PyTorch](https://pytorch.org/get-started/previous-versions/) 2.3.1
 - [MMCV](https://github.com/open-mmlab/mmcv) 1.6.0
 - [MMGeneration](https://github.com/open-mmlab/mmgeneration) 0.7.2
 
