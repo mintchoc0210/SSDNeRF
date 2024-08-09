@@ -4,26 +4,9 @@
 Official PyTorch implementation of :
 
 **Single-Stage Diffusion NeRF: A Unified Approach to 3D Generation and Reconstruction**
-<br>
-[Hansheng Chen](https://lakonik.github.io/)<sup>1,</sup>\*, [Jiatao Gu](https://jiataogu.me/)<sup>2</sup>, [Anpei Chen](https://apchenstu.github.io/)<sup>3</sup>, [Wei Tian](https://scholar.google.com/citations?user=aYKQn88AAAAJ&hl=en)<sup>1</sup>, [Zhuowen Tu](https://pages.ucsd.edu/~ztu/)<sup>4</sup>, [Lingjie Liu](https://lingjie0206.github.io/)<sup>5</sup>, [Hao Su](https://cseweb.ucsd.edu/~haosu/)<sup>4</sup><br>
-<sup>1</sup>Tongji University, <sup>2</sup>Apple, <sup>3</sup>ETH Zürich, <sup>4</sup>UCSD, <sup>5</sup>University of Pennsylvania
-<br>
-\*Work done during a remote internship with UCSD.
 
-[[project page](https://lakonik.github.io/ssdnerf)] [[paper](https://arxiv.org/pdf/2304.06714.pdf)]
-
-Part of this codebase is based on [torch-ngp](https://github.com/ashawkey/torch-ngp) and [MMGeneration](https://github.com/open-mmlab/mmgeneration).
-<br>
-
-https://github.com/Lakonik/SSDNeRF/assets/53893837/22e7ee6c-7576-44f2-b408-41089180e359
 
 ## Highlights
-
-- Code to reproduce ALL the experiments in the paper and supplementary material (including single-view reconstruction on the real KITTI Cars dataset).
-<br><img src="ssdnerf_kitti.gif" width="500" alt=""/>
-- New features including support for tiled triplanes (rollout layout), FP16 diffusion sampling, and 16-bit caching.
-- A simple GUI demo (modified from [torch-ngp](https://github.com/ashawkey/torch-ngp)).
-<br><img src="ssdnerf_gui.png" width="500" alt=""/>
 
 ## Installation
 
